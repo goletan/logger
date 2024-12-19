@@ -20,6 +20,8 @@ func NewLogger() (*ZapLogger, error) {
 		return nil, err
 	}
 
+	logger = logger.WithOptions(zap.AddCaller(), zap.AddCallerSkip(1))
+
 	scrub := scrubber.NewScrubber()
 
 	return &ZapLogger{
