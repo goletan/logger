@@ -2,7 +2,7 @@ package logger
 
 import (
 	"fmt"
-	"github.com/goletan/security/shared/scrubber"
+	"github.com/goletan/security-library/shared/scrubber"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
