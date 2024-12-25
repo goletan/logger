@@ -1,4 +1,4 @@
-module github.com/goletan/logger
+module github.com/goletan/logger-library
 
 go 1.23.2
 
